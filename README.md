@@ -1,7 +1,8 @@
-# First Church Academy 2025-2026 Math Middle School Information
+# First Church Academy 2025-2026 Middle School Math Information
 
 Here is the place Bill Adams is recording information about what
-he is doing in class.
+he is doing in Middle School Math class at First Church Academy
+in DeLand Florida.
 
 * [8th grade information](grade8.md)
 * [7th grade information](grade7.md)

@@ -1,3 +1,7 @@
+---
+title: "6th Grade Math - First Church Academy 2025-2026"
+---
+
 # 6th Grade FCA 2025-2026 Year
 
 * [Class work information](#class-work)

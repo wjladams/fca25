@@ -28,7 +28,7 @@ Daily Information:
 Overall concepts this week:
 * Negative numbers
 * Adding and subtracting negative numbers
-* The Absolute value function $|x|$.
+* The Absolute value function |x|.
 
 Daily information:
 * Tuesday class was a fun day, doing tesselations and finding words similar to the game Boggle.

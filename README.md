@@ -1,7 +1,3 @@
----
-title: "First Church Academy 2025-2026 Middle School Math Information"
----
-
 # First Church Academy 2025-2026 Middle School Math Information
 
 Here is the place Bill Adams is recording information about what

@@ -1,3 +1,8 @@
+---
+title: "8th Grade Math - FCA 2025-2026"
+layout: default
+---
+
 # 8th Grade FCA 2025-2026 Year
 
 * [Class work information](#class-work)

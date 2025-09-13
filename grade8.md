@@ -1,6 +1,5 @@
 # 8th Grade FCA 2025-2026 Year
 
-$$\int_a^b \cos(x) \, dx$$
 * [Class work information](#class-work)
 * [Homework assignments](#homework-assignments)
 

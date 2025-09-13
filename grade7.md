@@ -13,6 +13,16 @@
 ## Week 2 — Aug 26 - Aug 29
 
 ## Week 3 — Sep 2 - Sep 5
+Overall concepts this week:
+* Least common multiples
+* Greatest common factor
+* Square and cube roots $\sqrt{x}$ and $\sqrt[3]{x}$
+* Volume and area formulas used for cubes, squares, rectangles.
+
+Daily Information:
+* Tuesday section 1.4 covered
+* Thursday section 1.5 covered
+* Friday review exercises for chapter 1 from the book.
 
 ## Week 4 — Sep 9 - Sep 12
 Overall concepts this week:
@@ -31,6 +41,9 @@ Daily information:
 ## Week 2 — Aug 26 - Aug 29
 
 ## Week 3 — Sep 2 - Sep 5
+* Due Tuesday Sep 9: Book pages 16-17: 1a-e, 2a-d, 3ab, 5, (pick one of 7ab, 9, or 10)
+* Due Tuesday Sep 9: Book page 20: 1a-e, 2a-d, 3, 4, 9 (pick one of 5, 7ab, or 8ab)
+* Due TUesday Sep 9: Book page 23: 1, 3ab, 5a-c, 6a-c, 8-10
 
 ## Week 4 — Sep 9 - Sep 12
 

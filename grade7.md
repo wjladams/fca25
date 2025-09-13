@@ -16,7 +16,7 @@
 Overall concepts this week:
 * Least common multiples
 * Greatest common factor
-* Square and cube roots $\sqrt{x}$ and $\sqrt[3]{x}$
+* Square and cube roots
 * Volume and area formulas used for cubes, squares, rectangles.
 
 Daily Information:

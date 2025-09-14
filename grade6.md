@@ -52,3 +52,6 @@ Daily information:
 
 * Due Tuesday Sep 16: Book page 63: 1ab, 2a-f, 3a-d (pick one of 4,5,6)
 * Due Tuesday Sep 16: Book page 63 7-10
+
+## Week 5 — Sep 16 - Sep 18
+* Due Thursday Sep 18: [Review sheet](grade6-math-review-ch1-2.md)

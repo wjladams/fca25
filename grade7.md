@@ -35,6 +35,17 @@ Daily information:
 * Thursday class we went through sections 2.1 and 2.2
 * Friday class we reviewed section 2.3.
 
+## Week 5 — Sep 16 - Sep 18
+Overall concepts this week:
+* Multiplication and division of positive/negative integers (Section 2.4)
+* Rational number arithmetic and order of operations (Section 2.5)
+* Real numbers, decimals and calculator
+
+Daily information:
+* Tuesday section 2.4
+* Thursday section 2.5
+* Friday section 2.6
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -50,3 +61,8 @@ Daily information:
 * **Classwork** Thursday:  Book page 31: 2, 3, 5, 8a-d, 10a-c
 * Due Tuesday 9/16: Book page 37: 1, 2a-c, 3, 4a-d, 6a-c
 * Due Tuesday 9/16: Book page 43: 2a-c, 3a-c, 5a-c
+
+## Week 5 — Sep 16 - Sep 18
+* Due Thursday Sep 18: Book page 50: 1a-d, 2a-e, 3ab (and pick one of 4, 5, or 6)
+* Due Thursday Sept 25: Book pages 55-56: 1a-c, 2a, 3, 4aceg, 5ab
+* Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab

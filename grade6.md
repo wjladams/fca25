@@ -35,6 +35,16 @@ Daily information:
 * Thursday dividing fractions by fractions section 2.2
 * Friday reviewing dividing, multiplying and adding fractions.
 
+## Week 5 — Sep 16 - Sep 18
+Overall concepts this week:
+* Review of Chapters 1 and 2
+* Test covering both chapters
+
+Daily information:
+* Tuesday reviewing all concepts from Chapters 1 and 2
+* Thursday test on Chapters 1 and 2
+* Friday fun day making our own board games
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -55,3 +65,5 @@ Daily information:
 
 ## Week 5 — Sep 16 - Sep 18
 * Due Thursday Sep 18: [Review sheet](grade6-math-review-ch1-2.md)
+* In class test Thursday
+* Nothing for Friday

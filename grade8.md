@@ -39,9 +39,9 @@ Overall concepts this week:
 * Substitution method of solving 2 equations in 2 unknowns (Section 2.3)
 
 Daily information:
-* Tuesday we covered section 2.2
-* Thursday we worked through section 2.3
-* Friday we reviewed those sections
+* Tuesday we setup our new composition notebooks
+* Thursday we covered section 2.2
+* Friday we worked through section 2.3
 
 
 # Homework assignments
@@ -60,8 +60,10 @@ All homework due Tuesday 9/9
 * Due Tuesday 9/16: Book page 46: 7a-d, 8ab, 9 and (pick one of 11, 12, or 13)
 
 ## Week 5 — Sep 16 - Sep 18
-* Due Thursday Sep 18: Book page 52: 1ab, 2, 3, 4
+* Due Thursday Sep 25: Book page 52: 1ab, 2, 3, 4
 * Due Thursday Sep 25: Book page 55: 1a-d, 2a-c, 3
-* Due Thursday Sep 25: 
+
+
+<!-- * Due Thursday Sep 25: 
   * Book page 52: 4b, 5a, 6
-  * Book page 55: 1ef, 2de, 4 (choose either 4 or 5)
+  * Book page 55: 1ef, 2de, 4 (choose either 4 or 5) -->

@@ -41,9 +41,9 @@ Overall concepts this week:
 * Test covering both chapters
 
 Daily information:
-* Tuesday reviewing all concepts from Chapters 1 and 2
-* Thursday test on Chapters 1 and 2
-* Friday fun day making our own board games
+* Tuesday setting up new composition notebooks
+* Thursday reviewing all concepts from Chapters 1 and 2
+* Friday test on Chapters 1 and 2
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -65,4 +65,4 @@ Daily information:
 
 ## Week 5 — Sep 16 - Sep 18
 * Due Thursday Sep 18: [Review sheet](grade6-math-review-ch1-2.md) will **count as a quiz grade**
-* In class test Frida [Test](grade6_test_ch1-2.pdf)
+* In class test Friday [Test](grade6_test_ch1-2.pdf)

@@ -42,9 +42,9 @@ Overall concepts this week:
 * Real numbers, decimals and calculator
 
 Daily information:
-* Tuesday section 2.4
-* Thursday section 2.5
-* Friday section 2.6
+* Tuesday setting up new compostion notebooks
+* Thursday section 2.4
+* Friday section 2.5
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -63,6 +63,8 @@ Daily information:
 * Due Tuesday 9/16: Book page 43: 2a-c, 3a-c, 5a-c
 
 ## Week 5 — Sep 16 - Sep 18
-* Due Thursday Sep 18: Book page 50: 1a-d, 2a-e, 3ab (and pick one of 4, 5, or 6)
+* Due Thursday Sep 25: Book page 50: 1a-d, 2a-e, 3ab (and pick one of 4, 5, or 6)
 * Due Thursday Sept 25: Book pages 55-56: 1a-c, 2a, 3, 4aceg, 5ab
-* Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab
+
+
+<!-- * Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab -->

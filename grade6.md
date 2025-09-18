@@ -65,5 +65,4 @@ Daily information:
 
 ## Week 5 — Sep 16 - Sep 18
 * Due Thursday Sep 18: [Review sheet](grade6-math-review-ch1-2.md) will **count as a quiz grade**
-* In class test Thursday
-* Nothing for Friday
+* In class test Frida [Test](grade6_test_ch1-2.pdf)

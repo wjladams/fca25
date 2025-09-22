@@ -7,3 +7,4 @@ in DeLand Florida.
 * [8th grade information](grade8.md)
 * [7th grade information](grade7.md)
 * [6th grade information](grade6.md)
+* [Substitute teacher plan](substitute-teacher-plan.html)

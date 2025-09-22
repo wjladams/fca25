@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Number Snake</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --fg: #1f2937;
+        --muted: #6b7280;
+        --accent: #2563eb;
+        --card: #f8fafc;
+        --border: #e5e7eb;
+        --good: #16a34a;
+        --bad: #dc2626;
+      }
+      html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; line-height: 1.5; }
+      .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem 3rem; }
+      header h1 { margin: 0 0 0.25rem 0; font-size: 2rem; }
+      header p { margin: 0; color: var(--muted); }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; }
+
+      .controls { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+      button {
+        background: var(--accent);
+        color: #fff;
+        border: 1px solid var(--accent);
+        padding: 0.55rem 0.9rem;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button.secondary { background: #fff; color: var(--fg); border-color: var(--border); }
+      button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+      .board {
+        width: min(92vw, 420px);
+        aspect-ratio: 1 / 1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 8px;
+        margin: 1rem 0;
+      }
+      .cell {
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--fg);
+        font-size: clamp(1.4rem, 6vw, 2rem);
+        font-weight: 700;
+        user-select: none;
+        transition: transform 0.06s ease, background 0.15s ease, box-shadow 0.15s ease;
+      }
+      .cell:hover { transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+      .cell.selected { background: #eef2ff; border-color: #c7d2fe; }
+      .cell.invalid-next { outline: 2px dashed #fecaca; }
+
+      .status { display: flex; flex-direction: column; gap: 0.35rem; }
+      .path {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.5rem 0.65rem;
+        min-height: 2.25rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.35rem;
+      }
+      .chip { background: #eef2ff; color: #1e293b; border: 1px solid #c7d2fe; padding: 0.15rem 0.45rem; border-radius: 999px; font-weight: 700; }
+      .hint { color: var(--muted); font-size: 0.95rem; }
+
+      .instructions ul { padding-left: 1.25rem; }
+      .kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 0.95em; background: #f1f5f9; border: 1px solid var(--border); padding: 0 0.35rem; border-radius: 4px; }
+
+      footer { margin-top: 2rem; font-size: 0.85rem; color: var(--muted); }
+
+      /* Equation input and results */
+      .eq-form { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+      .eq-form input[type="text"] {
+        flex: 1 1 420px;
+        max-width: 100%;
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 0.55rem 0.7rem;
+        font-size: 1rem;
+      }
+      .error { color: var(--bad); font-size: 0.95rem; margin-top: 0.35rem; }
+      .results { margin-top: 1rem; }
+      .results ul { list-style: none; padding-left: 0; margin: 0.5rem 0 0 0; }
+      .results li { background: #fff; border: 1px solid var(--border); border-radius: 10px; padding: 0.6rem 0.8rem; margin-top: 0.5rem; }
+      .eq { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 1.05rem; }
+      .seq { color: var(--muted); font-size: 0.95rem; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Number Snake</h1>
+        <p>Make a path of adjacent digits (length ≥ 4). Use them to craft an equation like the Date Game. No data is stored.</p>
+      </header>
+
+      <section class="card">
+        <div class="controls">
+          <button id="shuffleBtn" type="button">Shuffle board</button>
+          <button id="clearBtn" class="secondary" type="button">Clear selection</button>
+        </div>
+        <div id="board" class="board" aria-label="4 by 4 digit board"></div>
+        <div class="status">
+          <div><strong>Score:</strong> <span id="score">0</span></div>
+          <div><strong>Selected length:</strong> <span id="length">0</span></div>
+          <div class="path" id="path"></div>
+          <div class="hint">Rule: You may only select cells adjacent to the last one (including diagonals). You cannot reuse a cell.</div>
+        </div>
+
+        <form class="eq-form" id="eqForm">
+          <input id="eqInput" type="text" inputmode="text" autocomplete="off" spellcheck="false" placeholder="Type your equation using the selected digits, e.g., (3+4)=7" aria-label="Equation input" />
+          <button id="submitEq" type="submit">Submit</button>
+          <button id="clearEq" class="secondary" type="button">Clear</button>
+          <div id="eqError" class="error" role="alert" aria-live="polite"></div>
+        </form>
+      </section>
+
+      <section class="instructions">
+        <h2>How to play</h2>
+        <ul>
+          <li><strong>1. Find a path:</strong> Click digits to build a snake path. Each new digit must touch the previous one (8 directions).</li>
+          <li><strong>2. Minimum length:</strong> Paths must be at least 4 digits long.</li>
+          <li><strong>3. Make an equation:</strong> Use your digits in order to write a true equation, like the Date Game. For now, track it yourself.</li>
+          <li><strong>4. Shuffle anytime:</strong> Use <span class="kbd">Shuffle board</span> for a fresh 4×4 grid.</li>
+        </ul>
+        <div class="results" id="results">
+          <h2>Valid equations found</h2>
+          <p class="hint">Each equation is tied to the exact digit path it came from.</p>
+          <ul id="resultsList"></ul>
+        </div>
+      </section>
+
+      <footer>
+        © 2025 • Number Snake • No storage, all in‑browser only
+      </footer>
+    </div>
+
+    <script>
+      (function() {
+        const boardEl = document.getElementById('board');
+        const shuffleBtn = document.getElementById('shuffleBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const pathEl = document.getElementById('path');
+        const lengthEl = document.getElementById('length');
+        const eqForm = document.getElementById('eqForm');
+        const eqInput = document.getElementById('eqInput');
+        const eqError = document.getElementById('eqError');
+        const resultsList = document.getElementById('resultsList');
+        const scoreEl = document.getElementById('score');
+
+        /** Board state */
+        let digits = [];
+        const size = 4;
+        /** Selected positions as linear indices 0..15 */
+        let selection = [];
+        /** In-memory set of unique (sequence|equation) keys */
+        const seen = new Set();
+
+        function randomDigit() { return Math.floor(Math.random() * 10); }
+
+        function generateBoard() {
+          digits = Array.from({ length: size * size }, randomDigit);
+        }
+
+        function renderBoard() {
+          boardEl.innerHTML = '';
+          for (let i = 0; i < digits.length; i++) {
+            const cell = document.createElement('button');
+            cell.type = 'button';
+            cell.className = 'cell';
+            cell.setAttribute('data-idx', String(i));
+            cell.setAttribute('aria-label', `Row ${Math.floor(i/size)+1} Column ${i%size+1} digit ${digits[i]}`);
+            cell.textContent = String(digits[i]);
+            cell.addEventListener('click', onCellClick);
+            boardEl.appendChild(cell);
+          }
+          updateSelectionClasses();
+        }
+
+        function isAdjacent(a, b) {
+          const ax = a % size, ay = Math.floor(a / size);
+          const bx = b % size, by = Math.floor(b / size);
+          const dx = Math.abs(ax - bx), dy = Math.abs(ay - by);
+          return (dx <= 1 && dy <= 1) && !(dx === 0 && dy === 0);
+        }
+
+        function onCellClick(e) {
+          const idx = Number(e.currentTarget.getAttribute('data-idx'));
+          // Disallow reusing a cell
+          if (selection.includes(idx)) return;
+          // If not first, enforce adjacency
+          if (selection.length > 0) {
+            const last = selection[selection.length - 1];
+            if (!isAdjacent(last, idx)) {
+              // Briefly indicate invalid
+              e.currentTarget.classList.add('invalid-next');
+              setTimeout(() => e.currentTarget.classList.remove('invalid-next'), 200);
+              return;
+            }
+          }
+          selection.push(idx);
+          updateSelectionClasses();
+          renderPath();
+        }
+
+        function updateSelectionClasses() {
+          const children = boardEl.children;
+          for (let i = 0; i < children.length; i++) {
+            const el = children[i];
+            if (selection.includes(i)) el.classList.add('selected');
+            else el.classList.remove('selected');
+          }
+        }
+
+        function renderPath() {
+          lengthEl.textContent = String(selection.length);
+          pathEl.innerHTML = '';
+          selection.forEach((idx) => {
+            const chip = document.createElement('span');
+            chip.className = 'chip';
+            chip.textContent = String(digits[idx]);
+            pathEl.appendChild(chip);
+          });
+          if (selection.length === 0) {
+            pathEl.textContent = '';
+          }
+        }
+
+        function clearSelection() {
+          selection = [];
+          updateSelectionClasses();
+          renderPath();
+          // Clearing selection does not clear equations; but reset error state
+          setError('');
+        }
+
+        function shuffle() {
+          generateBoard();
+          clearSelection();
+          renderBoard();
+          // Reset results and score on shuffle
+          resultsList.innerHTML = '';
+          seen.clear();
+          scoreEl.textContent = '0';
+          setError('');
+          eqInput.value = '';
+        }
+
+        shuffleBtn.addEventListener('click', () => {
+          shuffle();
+        });
+        clearBtn.addEventListener('click', () => {
+          clearSelection();
+        });
+
+        eqForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          handleSubmitEquation();
+        });
+        document.getElementById('clearEq').addEventListener('click', () => {
+          eqInput.value = '';
+          setError('');
+          eqInput.focus();
+        });
+
+        // Init
+        shuffle();
+
+        /** Helpers for equation validation */
+        function setError(msg) {
+          eqError.textContent = msg || '';
+        }
+
+        function selectedDigitsString() {
+          return selection.map(i => String(digits[i])).join('');
+        }
+
+        function normalizeOperators(str) {
+          return str
+            .replace(/[×x]/g, '*')
+            .replace(/[÷]/g, '/')
+            .replace(/[−]/g, '-')
+            .replace(/\^/g, '**');
+        }
+
+        function onlyAllowedChars(str) {
+          // digits, spaces, parentheses, + - * x × ÷ / ^ and equals
+          return /^[0-9\s()+\-x×*/÷^=]+$/.test(str);
+        }
+
+        function extractDigitsInOrder(str) {
+          return (str.match(/\d/g) || []).join('');
+        }
+
+        function evaluateExpression(expr) {
+          const norm = normalizeOperators(expr);
+          // Final safety: only allowed characters after normalization (digits, ops, parentheses, dot not allowed)
+          if (!/^[0-9\s()+\-*/=**]+$/.test(norm.replace(/\*\*/g, '**'))) {
+            throw new Error('Invalid characters');
+          }
+          // eslint-disable-next-line no-new-func
+          const fn = new Function(`return (${norm});`);
+          const val = fn();
+          if (typeof val !== 'number' || !isFinite(val)) throw new Error('Not a number');
+          return val;
+        }
+
+        function nearlyEqual(a, b, eps = 1e-9) {
+          return Math.abs(a - b) <= eps;
+        }
+
+        function handleSubmitEquation() {
+          const eqText = (eqInput.value || '').trim();
+          setError('');
+
+          if (selection.length < 4) {
+            setError('Select at least 4 digits before submitting an equation.');
+            eqInput.focus();
+            return;
+          }
+          if (!eqText) {
+            setError('Please enter an equation.');
+            eqInput.focus();
+            return;
+          }
+          if (!onlyAllowedChars(eqText)) {
+            setError('Use only digits, parentheses, +, −, ×, ÷, ^, and =.');
+            eqInput.focus();
+            return;
+          }
+          const equalsCount = (eqText.match(/=/g) || []).length;
+          if (equalsCount !== 1) {
+            setError('Your equation must contain exactly one equals sign (=).');
+            eqInput.focus();
+            return;
+          }
+
+          const requiredDigits = selectedDigitsString();
+          const usedDigits = extractDigitsInOrder(eqText);
+          if (usedDigits !== requiredDigits) {
+            setError('Use each selected digit exactly once and in order. Concatenation is allowed.');
+            eqInput.focus();
+            return;
+          }
+
+          const [leftRaw, rightRaw] = eqText.split('=');
+          try {
+            const left = evaluateExpression(leftRaw);
+            const right = evaluateExpression(rightRaw);
+            if (!nearlyEqual(left, right)) {
+              setError('Both sides must evaluate to the same value.');
+              eqInput.focus();
+              return;
+            }
+          } catch (err) {
+            setError('Invalid mathematical expression. Check parentheses and operators.');
+            eqInput.focus();
+            return;
+          }
+
+          const key = requiredDigits + '|' + eqText;
+          if (seen.has(key)) {
+            setError('You already submitted this equation for this sequence.');
+            eqInput.focus();
+            return;
+          }
+          // Re-evaluate to capture numeric values for display
+          const leftVal = evaluateExpression(leftRaw);
+          const rightVal = evaluateExpression(rightRaw);
+          seen.add(key);
+          appendResult(eqText, requiredDigits, leftVal, rightVal);
+          eqInput.value = '';
+          setError('');
+          eqInput.focus();
+        }
+
+        function formatSequence(seq) {
+          return seq.split('').join('   ');
+        }
+
+        function appendResult(equation, sequenceDigits, leftVal, rightVal) {
+          const li = document.createElement('li');
+          const eq = document.createElement('div');
+          eq.className = 'eq';
+          eq.textContent = equation;
+          const seq = document.createElement('div');
+          seq.className = 'seq';
+          seq.textContent = `Sequence: ${sequenceDigits.split('').join(' → ')}`;
+          const sums = document.createElement('div');
+          sums.className = 'seq';
+          sums.textContent = `Left: ${leftVal}  •  Right: ${rightVal}`;
+          li.appendChild(eq);
+          li.appendChild(seq);
+          li.appendChild(sums);
+          resultsList.appendChild(li);
+          // Update score
+          scoreEl.textContent = String(resultsList.children.length);
+        }
+      })();
+    </script>
+  </body>
+</html>
+
+

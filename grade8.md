@@ -43,6 +43,27 @@ Daily information:
 * Thursday we covered section 2.2
 * Friday we worked through section 2.3
 
+## Week 6 — Sep 23 - Sep 26
+Bill was out with a family issue this week.  Substitute teachers covered some new material and reviewed.
+Overall concepts this week:
+* Reviewing chapter 2
+* Elimination to solve equations, section 2.4
+
+Daily information:
+* Tuesday: had some fun with the date game and word patterns.
+* Thursday: reviewed work up to section 2.3
+* Friday: covered section 2.4, solving via elmmination method
+
+## Week 7 — Sep 30 - Oct 3
+Overall concepts this week:
+* Reviewing elimination in section 2.4
+* Covered section 2.5
+* Preparing for first test on Tuesday October 7th
+
+Daily information:
+* Tuesday: we covered 2.5, applications of 
+* Thursday: review chapter 1
+* Friday: review chapter 2
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -59,9 +80,19 @@ All homework due Tuesday 9/9
 * Due Tuesday 9/16: Book page 45: 1a-d, 2, 3, 4
 * Due Tuesday 9/16: Book page 46: 7a-d, 8ab, 9 and (pick one of 11, 12, or 13)
 
-## Week 5 — Sep 16 - Sep 18
+## Week 5 — Sep 16 - Sep 19
 * Due Thursday Sep 25: Book page 52: 1ab, 2, 3, 4
 * Due Thursday Sep 25: Book page 55: 1a-d, 2a-c, 3
+
+## Week 6 — Sep 23 - Sep 26
+* Due Thursday Oct 7: Book page 60: 1ace, 2ace
+
+## Week 7 — Sep 30 - Oct 3
+* Due Tuesday Oct 7: Book page 64: 1, 3, 4, 5 (pick one of 7, 8, or 9)
+* (Counts as Quiz) Due Tuesday Oct 7: Book page 36: 1abc, 2ab, 3ab, 4bd, 5cd, 6a, 7a, 9ab
+* (Counts as Quiz) Due Tuesday Oct 7: Book page 67: 1ab, 2ab, 3ab, 4, 6
+
+
 
 
 <!-- * Due Thursday Sep 25: 

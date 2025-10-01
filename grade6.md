@@ -45,6 +45,28 @@ Daily information:
 * Thursday reviewing all concepts from Chapters 1 and 2
 * Friday test on Chapters 1 and 2
 
+## Week 6 — Sep 23 - Sep 26
+Bill was out with a family issue this week. Substitute teachers covered new material and reviewed.
+Overall concepts this week:
+* Introduction to decimals, section 3.1
+
+Daily information:
+* Tuesday: had some fun with the date game and word patterns
+* Thursday: reviewed fraction operations
+* Friday: started section 3.1 on decimals
+
+## Week 7 — Sep 30 - Oct 3
+Next Tuesday they will have a quiz on decimal arithmetic
+Overall concepts this week:
+* Creating a board game
+* Multiplying decimals (Section 3.2)
+* Dividing decimals
+
+Daily information:
+* Tuesday: make their own board games
+* Thursday: covered section 3.2 multiplying decimals
+* Friday: covered section 3.3 dividing decimals
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -66,3 +88,10 @@ Daily information:
 ## Week 5 — Sep 16 - Sep 18
 * Due Thursday Sep 18: [Review sheet](grade6-math-review-ch1-2.md) will **count as a quiz grade**
 * In class test Friday [Test](grade6_test_ch1-2.pdf)
+
+## Week 6 — Sep 23 - Sep 26
+* Due Tuesday Oct 7: Book page 77: 1aceg, 2ab, 3ab, 4abcd
+
+## Week 7 — Sep 30 - Oct 3
+* Due Tuesday Oct 7: Book page 85: 1a-d, 2, 4ace, 5abc, 7
+* Due Tuesday Oct 7: Book page 93: 1, 2ab, 3, 4abc

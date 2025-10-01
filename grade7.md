@@ -46,6 +46,29 @@ Daily information:
 * Thursday section 2.4
 * Friday section 2.5
 
+## Week 6 — Sep 23 - Sep 26
+Bill was out with a family issue this week. Substitute teachers covered new material and reviewed.
+Overall concepts this week:
+* Review of chapter 2 concepts
+* Order of operations with rational numbers
+* Introduction to variables and expressions
+
+Daily information:
+* Tuesday: had some fun with the date game and word patterns
+* Thursday: reviewed chapter 2
+* Friday: section 2.6 calculators and decimals
+
+## Week 7 — Sep 30 - Oct 3
+Overall concepts this week:
+* Section 2.7 rounding and decimals
+* Reviewing for first test next Tuesday on chapters 1 and 2
+
+Daily information:
+* Tuesday: section 2.7 rounding and decimals
+* Thursday: review chapter 1
+* Friday: review of chapter 2 for upcoming test
+
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -65,6 +88,18 @@ Daily information:
 ## Week 5 — Sep 16 - Sep 18
 * Due Thursday Sep 25: Book page 50: 1a-d, 2a-e, 3ab (and pick one of 4, 5, or 6)
 * Due Thursday Sept 25: Book pages 55-56: 1a-c, 2a, 3, 4aceg, 5ab
+
+## Week 6 — Sep 23 - Sep 25
+* Due Tuesday Oct 7: Book page 60: 1ab, 2a-f, 3a, 4ab
+
+## Week 7 — Sep 30 - Oct 3
+* Due Tuesday Oct 7: Book page 65: 1-6, 8, 9, 10ab
+* (Counts as Quiz) Due Tuesday Oct 7: 
+  * Book page 23: 1, 3, 5a
+  * Find the GCF and LCM of
+    1. 12, 40
+    2. 15, 35
+* (Counts as Quiz) Due Tuesday Oct 7: Book page 68: 1, 2, 5abc, 8ab, 9ab
 
 
 <!-- * Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab -->

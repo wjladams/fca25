@@ -67,6 +67,17 @@ Daily information:
 * Thursday: covered section 3.2 multiplying decimals
 * Friday: covered section 3.3 dividing decimals
 
+## Week 8 — Oct 6 - Oct 10
+Overall concepts this week:
+* Quiz on decimal arithmetic
+* Review quiz and fun in class
+* Finishing board games
+
+Daily information:
+* Tuesday: quiz on decimal arithmetic
+* Thursday: reviewing decimal operations
+* Friday: students continued work on their own board games
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -96,5 +107,9 @@ Daily information:
 * Due Tuesday Oct 7: Book page 85: 1a-d, 2, 4ace, 5abc, 7
 * Due Tuesday Oct 7: Book page 93: 1, 2ab, 3, 4abc
 
-## Week 8 Fall break
+
+## Week 8 — Oct 6 - Oct 10
+* Book page 99: 1-6
+
+## Week 9 — Oct 13 - Oct 17 (Fall break)
 * [Fall break assignment](fall-break.md)

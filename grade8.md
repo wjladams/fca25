@@ -65,6 +65,18 @@ Daily information:
 * Thursday: review chapter 1
 * Friday: review chapter 2
 
+## Week 8 — Oct 6 - Oct 10
+Overall concepts this week:
+* Test 1
+* Build your own board game
+
+Daily information:
+* Tuesday: comprehensive test on chapters 1 and 2
+* Thursday: finishing test
+* Friday: build your own board game
+
+## Week 9 — Oct 13 - Oct 17 (Fall break)
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -92,7 +104,10 @@ All homework due Tuesday 9/9
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 36: 1abc, 2ab, 3ab, 4bd, 5cd, 6a, 7a, 9ab
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 67: 1ab, 2ab, 3ab, 4, 6
 
-## Week 8 Fall break
+# Homework assignments
+* None
+
+## Week 9 — Oct 13 - Oct 7 (Fall break)
 * [Fall break assignment](fall-break.md)
 
 <!-- * Due Thursday Sep 25: 

@@ -68,6 +68,12 @@ Daily information:
 * Thursday: review chapter 1
 * Friday: review of chapter 2 for upcoming test
 
+## Week 8 — Oct 6 - Oct 10
+Daily information:
+* Tuesday: comprehensive test on chapters 1 and 2
+* Thursday: reviewing test and class fun
+* Friday: students created their own board games
+
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -101,7 +107,10 @@ Daily information:
     2. 15, 35
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 68: 1, 2, 5abc, 8ab, 9ab
 
-## Week 8 Fall break
+## Week 8 - Oct 7 - Oct 10
+* No homework
+
+## Week 9 Fall break
 * [Fall break assignment](fall-break.md)
 
 <!-- * Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab -->

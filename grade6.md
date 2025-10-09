@@ -95,3 +95,6 @@ Daily information:
 ## Week 7 — Sep 30 - Oct 3
 * Due Tuesday Oct 7: Book page 85: 1a-d, 2, 4ace, 5abc, 7
 * Due Tuesday Oct 7: Book page 93: 1, 2ab, 3, 4abc
+
+## Week 8 Fall break
+* [Fall break assignment](fall-break.md)

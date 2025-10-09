@@ -101,5 +101,7 @@ Daily information:
     2. 15, 35
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 68: 1, 2, 5abc, 8ab, 9ab
 
+## Week 8 Fall break
+* [Fall break assignment](fall-break.md)
 
 <!-- * Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab -->

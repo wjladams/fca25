@@ -92,8 +92,8 @@ All homework due Tuesday 9/9
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 36: 1abc, 2ab, 3ab, 4bd, 5cd, 6a, 7a, 9ab
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 67: 1ab, 2ab, 3ab, 4, 6
 
-
-
+## Week 8 Fall break
+* [Fall break assignment](fall-break.md)
 
 <!-- * Due Thursday Sep 25: 
   * Book page 52: 4b, 5a, 6

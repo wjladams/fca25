@@ -78,6 +78,25 @@ Daily information:
 * Thursday: reviewing decimal operations
 * Friday: students continued work on their own board games
 
+## Week 9 — Oct 13 - Oct 17 (Fall break)
+Overall concepts this week:
+* Fall break - no in-person classes
+
+Daily information:
+* Fall break week - students working on assigned break work
+
+## Week 10 — Oct 20 - Oct 24
+Overall concepts this week:
+* Reivew chapter 3 for Test 2
+* Test 2 covering chapter 3 on Thursday
+* 
+
+Daily information:
+* Tuesday: review chapter 3
+* Thursday: test 2 on chapter 3
+* Friday: Fun topic day
+
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -113,3 +132,7 @@ Daily information:
 
 ## Week 9 — Oct 13 - Oct 17 (Fall break)
 * [Fall break assignment](fall-break.md)
+
+## Week 10 — Oct 20 - Oct 24
+* Due Thursday Oct 23: Complete [Chapter 3 Review Problems](grade6-test_ch3_review.md)
+

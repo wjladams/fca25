@@ -76,6 +76,20 @@ Daily information:
 * Friday: build your own board game
 
 ## Week 9 — Oct 13 - Oct 17 (Fall break)
+Overall concepts this week:
+* Fall break - no in-person classes
+
+Daily information:
+* Fall break week - students working on assigned break work
+
+## Week 10 — Oct 20 - Oct 24
+Overall concepts this week:
+* Reviewing solving simultaneous equations
+
+Daily information:
+* Tuesday: reviewing graphing to solve simultaneous
+* Thursday/Friday: reviewing substitution and elimination
+
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -110,6 +124,6 @@ All homework due Tuesday 9/9
 ## Week 9 — Oct 13 - Oct 7 (Fall break)
 * [Fall break assignment](fall-break.md)
 
-<!-- * Due Thursday Sep 25: 
-  * Book page 52: 4b, 5a, 6
-  * Book page 55: 1ef, 2de, 4 (choose either 4 or 5) -->
+## Week 10 — Oct 20 - Oct 24
+* Due Thursday Oct 23: Complete [Graphing Systems Review](grade8_graphing_solving.pdf)
+* Due Thursday Oct 30: Complete [Solving Systems Review](grade8_solving_simult.pdf)

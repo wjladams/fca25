@@ -74,6 +74,23 @@ Daily information:
 * Thursday: reviewing test and class fun
 * Friday: students created their own board games
 
+## Week 9 — Oct 13 - Oct 17 (Fall break)
+Overall concepts this week:
+* Fall break - no in-person classes
+
+Daily information:
+* Fall break week - students working on assigned break work
+
+## Week 10 — Oct 20 - Oct 24
+Overall concepts this week (sections 3.1 and 3.2):
+* Introduction to variables and expressions
+* Evaluating algebraic expressions
+* Simplifying expressions
+
+Daily information:
+* Tuesday: introduction to variables and expressions
+* Thursday: evaluating algebraic expressions
+* Friday: simplifying expressions
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -112,5 +129,10 @@ Daily information:
 
 ## Week 9 Fall break
 * [Fall break assignment](fall-break.md)
+
+## Week 10 — Oct 20 - Oct 24
+* Due Thursday Oct 23: Book page 77: 1, 3, 5, 7, 9, 11, 14
+* Due Thursday Oct 30: Book page 82: 1, 3, 4, 6ace, 7, 8, 13, 16
+
 
 <!-- * Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab -->

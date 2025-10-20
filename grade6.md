@@ -135,4 +135,4 @@ Daily information:
 
 ## Week 10 — Oct 20 - Oct 24
 * Due Thursday Oct 23: Complete [Chapter 3 Review Problems](grade6-test_ch3_review.md)
-
+* [Test Thursday](grade6_decimal_operations_test.pdf)

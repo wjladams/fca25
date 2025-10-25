@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}
+\usepackage{tikz}
+\usepackage[top=0.25in, bottom=0.25in, left=0.25in, right=0.25in]{geometry}
+
+\begin{document}
+\thispagestyle{empty}
+
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.north west)}]
+% Define the grid spacing (7mm = 0.7cm)
+\def\gridsize{0.5}
+
+% Calculate how many lines fit on the page
+% Page dimensions: approximately 8.5" x 11" = 21.6cm x 27.9cm
+% With 0.5" margins: approximately 20.6cm x 26.9cm usable space
+\def\maxx{43}  % Number of vertical lines
+\def\maxy{56}  % Number of horizontal lines
+
+% Draw vertical lines
+\foreach \x in {0,1,...,\maxx}
+    \draw[gray, thin] (\x*\gridsize,0) -- (\x*\gridsize,-\maxy*\gridsize);
+
+% Draw horizontal lines  
+\foreach \y in {0,1,...,\maxy}
+    \draw[gray, thin] (0,-\y*\gridsize) -- (\maxx*\gridsize,-\y*\gridsize);
+
+% Optional: Add thicker lines every 5th line for easier reading
+\foreach \x in {0,5,10,15,20,25}
+    \draw[gray, thick] (\x*\gridsize,0) -- (\x*\gridsize,-\maxy*\gridsize);
+
+\foreach \y in {0,5,10,15,20,25,30,35}
+    \draw[gray, thick] (0,-\y*\gridsize) -- (\maxx*\gridsize,-\y*\gridsize);
+
+\end{tikzpicture}
+
+\end{document}

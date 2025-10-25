@@ -90,6 +90,25 @@ Daily information:
 * Tuesday: reviewing graphing to solve simultaneous
 * Thursday/Friday: reviewing substitution and elimination
 
+## Week 11 — Oct 28 - Oct 31
+Overall concepts this week:
+* Chapter 3 covered on expanding and factoring
+
+Daily information:
+* Tuesday: 3.1 expanding expressions
+* Thursday: 3.2 special product formulas
+* Friday: 3.3 factoring special products
+
+## Week 12 — Nov 4 - Nov 7
+Overall concepts this week:
+* Review chapter 3 and test
+* Origami
+
+Daily information:
+* Tuesday: Review chapter 3
+* Thursday: Test on chapter 3
+* Friday: Origami
+
 
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
@@ -118,8 +137,6 @@ All homework due Tuesday 9/9
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 36: 1abc, 2ab, 3ab, 4bd, 5cd, 6a, 7a, 9ab
 * (Counts as Quiz) Due Tuesday Oct 7: Book page 67: 1ab, 2ab, 3ab, 4, 6
 
-# Homework assignments
-* None
 
 ## Week 9 — Oct 13 - Oct 7 (Fall break)
 * [Fall break assignment](fall-break.md)
@@ -127,3 +144,13 @@ All homework due Tuesday 9/9
 ## Week 10 — Oct 20 - Oct 24
 * Due Thursday Oct 23: Complete [Graphing Systems Review](grade8_graphing_solving.pdf)
 * Due Thursday Oct 30: Complete [Solving Systems Review](grade8_solving_simult.pdf)
+
+## Week 11 — Oct 28 - Oct 31
+* Due Thursday Oct 30: Book page 74: 1ace, 2aceg, 3ace, 4ac
+* Due Thursday Nov 6: Book page 78: 1ace, 2ace, 3ace, 4ab
+* Due Thursday Nov 6: Book page 82: 1aceg, 2aceg, 3ace, 5ace
+
+## Week 12 — Nov 4 - Nov 7
+* Due Thursday Nov 6: (Counts as quiz) [Chapter 3 Test Review](grade8_chapter3_test_review.pdf)
+* [Test Thursday](grade8_chapter3_test.pdf)
+

@@ -92,6 +92,27 @@ Daily information:
 * Thursday: evaluating algebraic expressions
 * Friday: simplifying expressions
 
+## Week 11 — Oct 28 - Oct 31
+Overall concepts this week (sections 3.3 and 3.4):
+* Manipulating algebraic expressions sections 3.3, 4.1 and 4.2
+
+Daily information:
+* Tuesday: Section 3.3
+* Thursday: Section 4.1  
+* Friday: Section 4.2
+
+## Week 12 — Nov 4 - Nov 7
+Overall concepts this week:
+* Review chapter 4 for test
+* Test on chapter 4
+* Origami
+
+Daily information:
+* Tuesday: Review chapter 4
+* Thursday: Test on chapter 4
+* Friday: Origami
+
+
 # Homework assignments
 ## Week 1 — Aug 19 - Aug 22
 
@@ -134,5 +155,14 @@ Daily information:
 * Due Thursday Oct 23: Book page 77: 1, 3, 5, 7, 9, 11, 14
 * Due Thursday Oct 30: Book page 82: 1, 3, 4, 6ace, 7, 8, 13, 16
 
+## Week 11 — Oct 28 - Oct 31
+* Due Thursday Oct 30: Book page 86: 1-4
+* Due Thursday Nov 6: 
+  * Book page 96-97: 3aceg, 4ace
+  * Book page 102: 1ac, 2ace, 3ace, 4a
 
-<!-- * Due Thursday Sept 25: Book page 60: 1ab, 2a-f, 3a, 4ab -->
+## Week 12 — Nov 4 - Nov 7
+* Due Thursday Nov 6: (Counts as quiz) [Chapter 3 - 4.2 Test Review](grade7_ch3_test_review.pdf)
+* [Test Thursday](grade7_ch3_test.pdf)
+
+

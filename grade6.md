@@ -89,12 +89,32 @@ Daily information:
 Overall concepts this week:
 * Reivew chapter 3 for Test 2
 * Test 2 covering chapter 3 on Thursday
-* 
 
 Daily information:
 * Tuesday: review chapter 3
 * Thursday: test 2 on chapter 3
 * Friday: Fun topic day
+
+## Week 11 — Oct 28 - Oct 31
+Overall concepts this week:
+* Chapter 4 covered on positive and negative numbers
+* Flatland movie and discussion
+
+Daily information:
+* Tuesday: Section 4.1
+* Thursday: Section 4.2
+* Friday: Flatland
+
+## Week 12 — Nov 4 - Nov 7
+Overall concepts this week:
+* Prepare for test on Chapter 4 and take the test
+* Origami
+
+Daily information:
+* Tuesday: Review Chapter 4
+* Thursday: Test Chapter 4
+* Friday: Origami
+
 
 
 # Homework assignments
@@ -136,3 +156,13 @@ Daily information:
 ## Week 10 — Oct 20 - Oct 24
 * Due Thursday Oct 23: Complete [Chapter 3 Review Problems](grade6-test_ch3_review.md)
 * [Test Thursday](grade6_decimal_operations_test.pdf)
+
+## Week 11 — Oct 28 - Oct 31
+* Due Thursday Oct 30: Page 118: 1-5
+* Due Thursday Nov 6: Page 126: 14, 5abc and (pick one of 7,8,9)
+
+## Week 12 — Nov 4 - Nov 7
+* Due Thursday Nov 6: (Counts as quiz) [Chapter 4 Test Review](grade6_ch4_test_review.pdf)
+* [Test Thursday](grade6_ch4_test.pdf)
+
+
